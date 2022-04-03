@@ -2,12 +2,8 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 use coding\app\controllers\IndexController;
-use coding\app\controllers\AuthorsController;
-use coding\app\controllers\CategoriesController;
-use coding\app\controllers\PublishersController;
-use coding\app\system\AppSystem;
-use coding\app\system\Router;
 use coding\app\controllers\UsersController;
+use coding\app\system\Router;
 use Dotenv\Dotenv;
 
 $dotenv = Dotenv::createImmutable(dirname(__DIR__));//createImmutable(__DIR__);
@@ -26,13 +22,7 @@ $system=new AppSystem($config);
 
 
 Router::get('/',[IndexController::class,'list']);
-// Router::get('/',[IndexController::class,'users']);
-Router::get('/categories',[CategoriesController::class,'listAll']);
-Router::get('/add_category',[CategoriesController::class,'create']);
-Router::get('/edit_category/{id}',[CategoriesController::class,'edit']);
-Router::get('/remove_category',[CategoriesController::class,'remove']);
-Router::post('/save_category',[CategoriesController::class,'store']);
-Router::post('/update_category',[CategoriesController::class,'update']);
+Router::get('/users',[UsersController::class,'showUsers']);
 
 /** end of web routes */
 

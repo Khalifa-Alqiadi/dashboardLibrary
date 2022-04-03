@@ -69,7 +69,7 @@
   </a>
 </li>
 <li class="menu-item">
-  <a href="#" class="menu-link">
+  <a href="users" class="menu-link">
     <div>عرض المستخدمين</div>
   </a>
 </li>
