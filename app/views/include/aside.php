@@ -89,6 +89,19 @@
   </a>
 </li>
   <!-- Misc -->
+  <!-- Misc -->
+  <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة الاقسام والتصنيفات</span></li>
+  <li class="menu-item">
+  <a href="#" class="menu-link">
+    <div>انشاء كاتب</div>
+  </a>
+</li>
+<li class="menu-item">
+  <a href="/authors" class="menu-link">
+    <div>عرض الكناب</div>
+  </a>
+</li>
+  <!-- Misc -->
   <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة الطلبات</span></li>
   <li class="menu-item">
   <a href="#" class="menu-link">
