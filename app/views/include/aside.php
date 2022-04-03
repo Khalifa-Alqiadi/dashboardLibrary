@@ -131,7 +131,7 @@
   </a>
 </li>
 <li class="menu-item">
-  <a href="#" class="menu-link">
+  <a href="/user_payement" class="menu-link">
     <div>عرض الطرق</div>
   </a>
 </li>
