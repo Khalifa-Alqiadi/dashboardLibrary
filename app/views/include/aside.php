@@ -88,6 +88,19 @@
     <div>عرض الاقسام</div>
   </a>
 </li>
+
+  <!-- Misc -->
+  <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة الاقسام والتصنيفات</span></li>
+  <li class="menu-item">
+  <a href="#" class="menu-link">
+    <div>انشاء ناشر</div>
+  </a>
+</li>
+<li class="menu-item">
+  <a href="/publishers" class="menu-link">
+    <div>عرض دار النشر</div>
+  </a>
+</li>
   <!-- Misc -->
   <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة الطلبات</span></li>
   <li class="menu-item">
