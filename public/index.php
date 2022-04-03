@@ -28,11 +28,6 @@ $system=new AppSystem($config);
 Router::get('/',[IndexController::class,'list']);
 // Router::get('/',[IndexController::class,'users']);
 Router::get('/categories',[CategoriesController::class,'listAll']);
-Router::get('/add_category',[CategoriesController::class,'create']);
-Router::get('/edit_category/{id}',[CategoriesController::class,'edit']);
-Router::get('/remove_category',[CategoriesController::class,'remove']);
-Router::post('/save_category',[CategoriesController::class,'store']);
-Router::post('/update_category',[CategoriesController::class,'update']);
 
 /** end of web routes */
 
