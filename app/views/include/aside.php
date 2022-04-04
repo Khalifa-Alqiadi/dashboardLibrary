@@ -123,6 +123,18 @@
     <div>عرض الكتب</div>
   </a>
 </li>
+  <!-- Misc -->
+  <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة الكتب/span></li>
+  <li class="menu-item">
+  <a href="#" class="menu-link">
+    <div>اضافة مدينة</div>
+  </a>
+</li>
+<li class="menu-item">
+  <a href="cities" class="menu-link">
+    <div>عرض المدن</div>
+  </a>
+</li>
    <!-- Misc -->
    <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة طرق الدفع</span></li>
    <li class="menu-item">
